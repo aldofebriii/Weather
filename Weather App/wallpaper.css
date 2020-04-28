@@ -1,0 +1,44 @@
+body {
+    margin : 0;
+    height: 100%;
+    background-image: url(view/wallpaper1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body .info{
+    border-style: solid;
+    border-color: white;
+    backdrop-filter: blur(3px);
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.transp {
+    background-color: transparent;
+}
+
+body #w-desc {
+    text-transform: capitalize;
+}
+
+.monospace {
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 20px;
+  }
+
+.impact {
+    font-family: "Impact, fantasy";
+}
+
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.time {
+    font-size: 68px;
+}
